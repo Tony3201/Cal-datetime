@@ -1,5 +1,5 @@
 方法一：简单日期天数时间差计算
-
+#!/usr/bin/env python3
 from datetime import datetime
 a = datetime(2021, 2, 29)
 b = datetime(2025, 11, 29)
@@ -10,6 +10,7 @@ print("运行时间："+str((b-a).days)+" 天")
 方法二：
 
 具体如下：
+#!/usr/bin/env python3
 import time as t
 import datetime as d
 #定义时间差函数
