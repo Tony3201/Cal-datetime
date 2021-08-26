@@ -1,0 +1,7 @@
+SELECT TIMESTAMPDIFF(SECOND, now(), "2012-11-11 00:00:00")    //计算秒差
+
+ 语法为：TIMESTAMPDIFF(unit,datetime1,datetime2)，
+
+ 其中unit单位有如下几种，分别是：FRAC_SECOND (microseconds), SECOND, MINUTE, HOUR, DAY, WEEK, MONTH, QUARTER, or YEAR
+ 
+ 
